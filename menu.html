@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Café Elmorie</title>
+  <meta name="description" content="Café Elmorie のメニュー。自家焙煎コーヒー、ドリンク、フード、デザートをご用意しています。">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#8B6F47">
+  <link rel="canonical" href="https://cafeelmorie.jp/menu.html">
+  <link rel="icon" href="images/favicon.svg">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Café Elmorie">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="Menu | Café Elmorie">
+  <meta property="og:description" content="Café Elmorie のメニュー。自家焙煎コーヒー、ドリンク、フード、デザートをご用意しています。">
+  <meta property="og:image" content="https://cafeelmorie.jp/images/hero-top.jpg">
+  <meta property="og:url" content="https://cafeelmorie.jp/menu.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Shippori+Mincho:wght@400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-nav" href="#main-content">コンテンツへスキップ</a>
+
+  <header class="header" id="header">
+    <a href="index.html" class="logo">Café Elmorie</a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="is-active" aria-current="page">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="access.html">Access</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mob-nav" aria-label="モバイルナビゲーション">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="access.html">Access</a>
+  </nav>
+
+  <main id="main-content">
+
+    <section class="page-hero">
+      <div class="page-hero__bg" style="background-image: url('images/hero-menu.jpg');"></div>
+      <div class="page-hero__overlay"></div>
+      <div class="page-hero__body fade-up">
+        <p class="page-hero__label">Café Elmorie</p>
+        <h1 class="page-hero__title">Menu</h1>
+      </div>
+    </section>
+
+    <section class="section menu-section">
+      <div class="container">
+
+        <div style="text-align:center; margin-bottom:20px;" class="fade-up">
+          <span class="label">Our Menu</span>
+          <h2 class="heading-en">Crafted for you</h2>
+          <div class="divider divider--center"></div>
+        </div>
+
+        <div class="filter-bar fade-up d1">
+          <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="coffee">Coffee</button>
+          <button type="button" class="filter-btn" data-filter="drink">Drink</button>
+          <button type="button" class="filter-btn" data-filter="food">Food</button>
+          <button type="button" class="filter-btn" data-filter="dessert">Dessert</button>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Coffee -->
+          <div class="menu-item" data-cat="coffee">
+            <div class="menu-item__img"><img src="images/menu-blend.jpg" alt="Elmorie Blend — 看板ブレンドコーヒー" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Elmorie Blend</h3>
+              <p class="menu-item__price">¥600</p>
+            </div>
+            <p class="menu-item__name-ja">看板ブレンドコーヒー</p>
+            <p class="menu-item__desc">ナッツの香りとほのかな甘みが特徴の、当店オリジナルブレンド。ホット・アイス選べます。</p>
+          </div>
+
+          <div class="menu-item" data-cat="coffee">
+            <div class="menu-item__img"><img src="images/coffee-espresso.jpg" alt="Espresso — エスプレッソ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Espresso</h3>
+              <p class="menu-item__price">¥550</p>
+            </div>
+            <p class="menu-item__name-ja">エスプレッソ</p>
+            <p class="menu-item__desc">豆の個性をストレートに楽しめる、濃縮された一杯。ショット追加 +¥100。</p>
+          </div>
+
+          <div class="menu-item" data-cat="coffee">
+            <div class="menu-item__img"><img src="images/coffee-cappuccino.jpg" alt="Cappuccino — カプチーノ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Cappuccino</h3>
+              <p class="menu-item__price">¥680</p>
+            </div>
+            <p class="menu-item__name-ja">カプチーノ</p>
+            <p class="menu-item__desc">きめ細かいフォームミルクとエスプレッソのバランスが心地よい定番カプチーノ。</p>
+          </div>
+
+          <div class="menu-item" data-cat="coffee">
+            <div class="menu-item__img"><img src="images/coffee-latte.jpg" alt="Café Latte — カフェラテ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Café Latte</h3>
+              <p class="menu-item__price">¥700</p>
+            </div>
+            <p class="menu-item__name-ja">カフェラテ</p>
+            <p class="menu-item__desc">なめらかなスチームミルクとエスプレッソ。毎日飲みたくなるやさしい味わい。ホット・アイス選べます。</p>
+          </div>
+
+          <div class="menu-item" data-cat="coffee">
+            <div class="menu-item__img"><img src="images/idx-card-honeylatte.jpg" alt="Honey Latte — はちみつラテ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Honey Latte</h3>
+              <p class="menu-item__price">¥750</p>
+            </div>
+            <p class="menu-item__name-ja">はちみつラテ</p>
+            <p class="menu-item__desc">国産はちみつとエスプレッソが織りなす、ほっとするやさしい甘さ。当店の人気 No.1。</p>
+          </div>
+
+          <div class="menu-item" data-cat="coffee">
+            <div class="menu-item__img"><img src="images/menu-singleorigin.jpg" alt="Single Origin — シングルオリジン ハンドドリップ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Single Origin</h3>
+              <p class="menu-item__price">¥750〜</p>
+            </div>
+            <p class="menu-item__name-ja">シングルオリジン</p>
+            <p class="menu-item__desc">産地・農園を特定した豆をハンドドリップで。週替わりで2〜3種類ご用意しています。</p>
+          </div>
+
+          <!-- Drink -->
+          <div class="menu-item" data-cat="drink">
+            <div class="menu-item__img"><img src="images/tea-drink.jpg" alt="Chamomile Tea — カモミールティー" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Chamomile Tea</h3>
+              <p class="menu-item__price">¥620</p>
+            </div>
+            <p class="menu-item__name-ja">カモミールティー</p>
+            <p class="menu-item__desc">やさしい香りのカモミールをポットでたっぷりと。ほっと一息つきたいときに。</p>
+          </div>
+
+          <div class="menu-item" data-cat="drink">
+            <div class="menu-item__img"><img src="images/menu-hojicha.jpg" alt="Hojicha Latte — ほうじ茶ラテ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Hojicha Latte</h3>
+              <p class="menu-item__price">¥720</p>
+            </div>
+            <p class="menu-item__name-ja">ほうじ茶ラテ</p>
+            <p class="menu-item__desc">京都産のほうじ茶とスチームミルクが溶け合う、やさしい香ばしさのラテ。ホット・アイス選べます。</p>
+          </div>
+
+          <div class="menu-item" data-cat="drink">
+            <div class="menu-item__img"><img src="images/menu-lemontea.jpg" alt="Lemon Ginger Tea — レモンジンジャーティー" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Lemon Ginger Tea</h3>
+              <p class="menu-item__price">¥650</p>
+            </div>
+            <p class="menu-item__name-ja">レモンジンジャーティー</p>
+            <p class="menu-item__desc">生姜の爽やかな刺激と国産レモンのさっぱり感が心地よい、体を温めるハーブティー。</p>
+          </div>
+
+          <!-- Food -->
+          <div class="menu-item" data-cat="food">
+            <div class="menu-item__img"><img src="images/idx-card-toast.jpg" alt="Morning Toast Set — モーニングトーストセット" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Morning Toast Set</h3>
+              <p class="menu-item__price">¥800</p>
+            </div>
+            <p class="menu-item__name-ja">モーニングトーストセット</p>
+            <p class="menu-item__desc">毎朝焼き上げる自家製パンのトーストに、自家製ジャムとバターを添えて。（〜11:00）</p>
+          </div>
+
+          <div class="menu-item" data-cat="food">
+            <div class="menu-item__img"><img src="images/food-avocado.jpg" alt="Avocado Toast — アボカドトースト" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Avocado Toast</h3>
+              <p class="menu-item__price">¥980</p>
+            </div>
+            <p class="menu-item__name-ja">アボカドトースト</p>
+            <p class="menu-item__desc">クリーミーなアボカドを自家製パンにのせて。ポーチドエッグ、フレッシュハーブを添えています。</p>
+          </div>
+
+          <div class="menu-item" data-cat="food">
+            <div class="menu-item__img"><img src="images/food-soup.jpg" alt="Soup &amp; Bread — スープと自家製パン" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Soup &amp; Bread</h3>
+              <p class="menu-item__price">¥920</p>
+            </div>
+            <p class="menu-item__name-ja">スープ＆自家製パン</p>
+            <p class="menu-item__desc">日替わりのスープと自家製パンのセット。旬の野菜をたっぷり使った、ほっと温まる一皿です。</p>
+          </div>
+
+          <!-- Dessert -->
+          <div class="menu-item" data-cat="dessert">
+            <div class="menu-item__img"><img src="images/dessert-canele.jpg" alt="Canelé — カヌレ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Canelé</h3>
+              <p class="menu-item__price">¥420</p>
+            </div>
+            <p class="menu-item__name-ja">カヌレ</p>
+            <p class="menu-item__desc">外はカリッと、中はしっとりもっちり。毎朝焼き上げる、コーヒーとの相性抜群のカヌレです。</p>
+          </div>
+
+          <div class="menu-item" data-cat="dessert">
+            <div class="menu-item__img"><img src="images/dessert-tart.jpg" alt="Daily Tart — 本日のタルト" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Daily Tart</h3>
+              <p class="menu-item__price">¥580</p>
+            </div>
+            <p class="menu-item__name-ja">本日のタルト</p>
+            <p class="menu-item__desc">旬のフルーツや素材を使った週替わりのタルト。ショーケースをご覧ください。</p>
+          </div>
+
+          <div class="menu-item" data-cat="dessert">
+            <div class="menu-item__img"><img src="images/dessert-cake.jpg" alt="Baked Cheesecake — 焼きチーズケーキ" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Baked Cheesecake</h3>
+              <p class="menu-item__price">¥580</p>
+            </div>
+            <p class="menu-item__name-ja">焼きチーズケーキ</p>
+            <p class="menu-item__desc">なめらかな口どけのベイクドチーズケーキ。コーヒーとの相性がよく、通年人気のデザートです。</p>
+          </div>
+
+          <div class="menu-item" data-cat="dessert">
+            <div class="menu-item__img"><img src="images/dessert-scone.jpg" alt="Scone Set — スコーンセット" loading="lazy" width="800" height="800"></div>
+            <div class="menu-item__row">
+              <h3 class="menu-item__name">Scone Set</h3>
+              <p class="menu-item__price">¥680</p>
+            </div>
+            <p class="menu-item__name-ja">スコーンセット</p>
+            <p class="menu-item__desc">プレーンとフレーバーの2種類を。クロテッドクリームとジャムを添えてどうぞ。</p>
+          </div>
+
+        </div>
+
+        <div class="menu-note fade-up">
+          <p>
+            価格はすべて税込みです。季節限定メニューは店頭またはInstagramをご確認ください。<br>
+            アレルギーをお持ちのお客さまは、ご注文の際にスタッフへお知らせください。
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="footer__logo">Café Elmorie</a>
+          <p class="footer__tagline">日常に、ほっとひと息つける時間を。<br>住宅街にたたずむ、自家焙煎カフェ。</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Navigation</p>
+          <ul class="footer__nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="access.html">Access</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="footer__col-title">Info</p>
+          <p>東京都世田谷区北沢2-14-7<br>03-1234-5678<br><br>火〜金 9:00 – 19:00<br>土日祝 8:00 – 19:00<br>月曜定休</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Café Elmorie. All rights reserved.</p>
+        <p class="footer__disclaimer">※ このサイトはポートフォリオ制作のためのデモサイトです。Café Elmorieは実在しません。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

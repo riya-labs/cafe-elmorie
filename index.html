@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Elmorie — 日常に、ほっとひと息つける時間を。</title>
+  <meta name="description" content="住宅街にたたずむ自家焙煎カフェ。一人でも入りやすく、ゆっくり過ごせる空間です。東京・世田谷区北沢。">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#8B6F47">
+  <link rel="canonical" href="https://cafeelmorie.jp/">
+  <link rel="icon" href="images/favicon.svg">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Café Elmorie">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="Café Elmorie — 日常に、ほっとひと息つける時間を。">
+  <meta property="og:description" content="住宅街にたたずむ自家焙煎カフェ。一人でも入りやすく、ゆっくり過ごせる空間です。東京・世田谷区北沢。">
+  <meta property="og:image" content="https://cafeelmorie.jp/images/hero-top.jpg">
+  <meta property="og:url" content="https://cafeelmorie.jp/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Shippori+Mincho:wght@400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Hero image preload hint -->
+  <link rel="preload" as="image" href="images/hero-top.jpg" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Café Elmorie",
+    "description": "住宅街にたたずむ自家焙煎カフェ。一人でも入りやすく、ゆっくり過ごせる空間です。",
+    "url": "https://cafeelmorie.jp",
+    "telephone": "+81-3-1234-5678",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "北沢2-14-7",
+      "addressLocality": "世田谷区",
+      "addressRegion": "東京都",
+      "postalCode": "155-0031",
+      "addressCountry": "JP"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.661,
+      "longitude": 139.668
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday","Sunday","PublicHolidays"],
+        "opens": "08:00",
+        "closes": "19:00"
+      }
+    ],
+    "servesCuisine": ["Coffee","Café"],
+    "priceRange": "¥¥",
+    "image": "https://cafeelmorie.jp/images/hero-top.jpg",
+    "sameAs": ["https://www.instagram.com/cafeelmorie"]
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-nav" href="#main-content">コンテンツへスキップ</a>
+
+  <header class="header" id="header">
+    <a href="index.html" class="logo">Café Elmorie</a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="nav__list">
+        <li><a href="index.html" class="is-active" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="access.html">Access</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mob-nav" aria-label="モバイルナビゲーション">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="access.html">Access</a>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg" style="background-image: url('images/hero-top.jpg');"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__body">
+        <p class="hero__sub">Self-Roasted Coffee &amp; Café</p>
+        <h1 class="hero__title">Café Elmorie</h1>
+        <p class="hero__copy">日常に、ほっとひと息つける時間を。</p>
+        <a href="menu.html" class="btn">View Menu</a>
+      </div>
+      <div class="hero__scroll">
+        <div class="hero__scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- Concept -->
+    <section class="section concept">
+      <div class="container">
+        <div class="concept__grid">
+          <div class="concept__img fade-in">
+            <img src="images/idx-concept.jpg" alt="Café Elmorie の一杯" loading="lazy" width="900" height="1100">
+          </div>
+          <div class="fade-up d2">
+            <span class="label">Our Concept</span>
+            <h2 class="heading-en">A quiet place<br><em>to breathe.</em></h2>
+            <p class="heading-ja">ここに来ると、なんかほっとする</p>
+            <div class="divider"></div>
+            <p class="body-text">
+              住宅街のひとかど、小さな路地の奥にCafé Elmorieはあります。<br>
+              1日に何度もその扉が開かれるわけではないけれど、<br>
+              来てくれたひとに「また来たい」と思ってもらえる場所でいたい。<br><br>
+              自家焙煎のコーヒーと、心をこめて作ったひと皿。<br>
+              そして、あなたのペースで流れる静かな時間を。
+            </p>
+            <div style="margin-top: 44px;">
+              <a href="about.html" class="btn">Read Our Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Menu -->
+    <section class="section featured">
+      <div class="container">
+        <div class="featured__head fade-up">
+          <span class="label">Signature</span>
+          <h2 class="heading-en">Featured Menu</h2>
+          <div class="divider divider--center"></div>
+        </div>
+        <div class="cards">
+          <div class="card fade-up d1">
+            <div class="card__img">
+              <img src="images/menu-blend.jpg" alt="Elmorie Blend — 看板ブレンドコーヒー" loading="lazy" width="1200" height="900">
+            </div>
+            <h3 class="card__name-en">Elmorie Blend</h3>
+            <p class="card__name-ja">看板ブレンドコーヒー</p>
+            <p class="card__desc">当店オリジナルの自家焙煎ブレンド。ナッツの香りとほのかな甘みが特徴の、毎日飲みたくなる一杯です。</p>
+          </div>
+          <div class="card fade-up d2">
+            <div class="card__img">
+              <img src="images/idx-card-honeylatte.jpg" alt="Honey Latte — はちみつラテ" loading="lazy" width="1200" height="900">
+            </div>
+            <h3 class="card__name-en">Honey Latte</h3>
+            <p class="card__name-ja">はちみつラテ</p>
+            <p class="card__desc">国産はちみつとエスプレッソが織りなす、やさしい甘さのラテ。ほっと一息つきたい午後に。</p>
+          </div>
+          <div class="card fade-up d3">
+            <div class="card__img">
+              <img src="images/idx-card-toast.jpg" alt="Morning Toast Set — モーニングトーストセット" loading="lazy" width="1200" height="900">
+            </div>
+            <h3 class="card__name-en">Morning Toast Set</h3>
+            <p class="card__name-ja">モーニングトーストセット</p>
+            <p class="card__desc">毎朝焼き上げる自家製パンのトーストに、自家製ジャムとバターを添えて。ドリンクとセットでどうぞ。</p>
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:60px;" class="fade-up">
+          <a href="menu.html" class="btn">Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section about-prev">
+      <div class="container">
+        <div class="about-prev__grid">
+          <div class="fade-up">
+            <span class="label">About</span>
+            <h2 class="heading-en">Self-roasted<br><em>with care.</em></h2>
+            <p class="heading-ja">豆から、丁寧に。</p>
+            <div class="divider"></div>
+            <p class="body-text">
+              Café Elmorieの豆はすべて、店内の小型焙煎機で少量ずつ焙煎しています。産地や農園まで追跡できる豆を厳選し、それぞれの個性を活かした焙煎プロファイルを研究しながら、毎回新鮮な状態でお届けしています。
+            </p>
+            <div style="margin-top: 44px;">
+              <a href="about.html" class="btn">About Us</a>
+            </div>
+          </div>
+          <div class="about-prev__img fade-in d2">
+            <img src="images/idx-about.jpg" alt="コーヒーと静かな時間" loading="lazy" width="900" height="1200">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="section gal-prev">
+      <div class="container">
+        <div class="gal-prev__head fade-up">
+          <span class="label">Gallery</span>
+          <h2 class="heading-en">From the café</h2>
+          <div class="divider divider--center"></div>
+        </div>
+        <div class="gal-prev__grid fade-in d1">
+          <div class="gal-prev__item">
+            <img src="images/idx-gal-1.jpg" alt="Café Elmorie の空間" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="gal-prev__item">
+            <img src="images/idx-gal-2.jpg" alt="コーヒー" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="gal-prev__item">
+            <img src="images/idx-gal-3.jpg" alt="フード" loading="lazy" width="1200" height="900">
+          </div>
+        </div>
+        <div class="gal-prev__foot fade-up">
+          <a href="gallery.html" class="btn">View Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Access Preview -->
+    <section class="section access-prev">
+      <div class="container">
+        <div class="access-prev__grid">
+          <div class="access-prev__info fade-up">
+            <span class="label">Access</span>
+            <h2 class="heading-en">Find Us</h2>
+            <div class="divider"></div>
+            <h3>Address</h3>
+            <p>東京都世田谷区北沢2-14-7<br>下北沢駅 南口より徒歩5分</p>
+            <h3>Hours</h3>
+            <p>火〜金&emsp;9:00 – 19:00<br>土・日・祝&emsp;8:00 – 19:00<br>（L.O. 18:30）&emsp;月曜定休</p>
+            <h3>Contact</h3>
+            <p>03-1234-5678</p>
+            <div style="margin-top: 36px;">
+              <a href="access.html" class="btn">Access Details</a>
+            </div>
+          </div>
+          <div class="access-prev__map fade-in d2">
+            <iframe
+              src="https://maps.google.com/maps?q=%E4%B8%8B%E5%8C%97%E6%B2%A2%E9%A7%85,Setagaya,Tokyo&output=embed&zoom=16"
+              allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Café Elmorie アクセスマップ">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="footer__logo">Café Elmorie</a>
+          <p class="footer__tagline">日常に、ほっとひと息つける時間を。<br>住宅街にたたずむ、自家焙煎カフェ。</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Navigation</p>
+          <ul class="footer__nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="access.html">Access</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="footer__col-title">Info</p>
+          <p>東京都世田谷区北沢2-14-7<br>03-1234-5678<br><br>火〜金 9:00 – 19:00<br>土日祝 8:00 – 19:00<br>月曜定休</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Café Elmorie. All rights reserved.</p>
+        <p class="footer__disclaimer">※ このサイトはポートフォリオ制作のためのデモサイトです。Café Elmorieは実在しません。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

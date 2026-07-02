@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Café Elmorie</title>
+  <meta name="description" content="Café Elmorie のギャラリー。店内の様子、コーヒー、フードの写真をご覧いただけます。">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#8B6F47">
+  <link rel="canonical" href="https://cafeelmorie.jp/gallery.html">
+  <link rel="icon" href="images/favicon.svg">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Café Elmorie">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="Gallery | Café Elmorie">
+  <meta property="og:description" content="Café Elmorie のギャラリー。店内の様子、コーヒー、フードの写真をご覧いただけます。">
+  <meta property="og:image" content="https://cafeelmorie.jp/images/hero-top.jpg">
+  <meta property="og:url" content="https://cafeelmorie.jp/gallery.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Shippori+Mincho:wght@400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-nav" href="#main-content">コンテンツへスキップ</a>
+
+  <header class="header" id="header">
+    <a href="index.html" class="logo">Café Elmorie</a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html" class="is-active" aria-current="page">Gallery</a></li>
+        <li><a href="access.html">Access</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mob-nav" aria-label="モバイルナビゲーション">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="access.html">Access</a>
+  </nav>
+
+  <main id="main-content">
+
+    <section class="page-hero">
+      <div class="page-hero__bg" style="background-image: url('images/hero-gallery.jpg');"></div>
+      <div class="page-hero__overlay"></div>
+      <div class="page-hero__body fade-up">
+        <p class="page-hero__label">Café Elmorie</p>
+        <h1 class="page-hero__title">Gallery</h1>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="container">
+
+        <div style="text-align:center; margin-bottom:40px;" class="fade-up">
+          <span class="label">Photography</span>
+          <h2 class="heading-en">A glimpse inside</h2>
+          <div class="divider divider--center"></div>
+        </div>
+
+        <div class="gallery-filter fade-up d1">
+          <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="interior">Interior</button>
+          <button type="button" class="filter-btn" data-filter="coffee">Coffee</button>
+          <button type="button" class="filter-btn" data-filter="food">Food</button>
+        </div>
+
+        <div class="masonry fade-in d2">
+
+          <div class="masonry__item" data-cat="interior">
+            <img src="images/interior-warm.jpg" alt="カフェ内観・全体" loading="lazy" width="1200" height="800">
+          </div>
+          <div class="masonry__item" data-cat="coffee">
+            <img src="images/gal-coffee-1.jpg" alt="ラテアート" loading="lazy" width="900" height="1100">
+          </div>
+          <div class="masonry__item" data-cat="food">
+            <img src="images/gal-food-1.jpg" alt="カフェのフード" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="masonry__item" data-cat="coffee">
+            <img src="images/gal-coffee-2.jpg" alt="コーヒー" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="masonry__item" data-cat="food">
+            <img src="images/gal-food-2.jpg" alt="デザート" loading="lazy" width="900" height="1100">
+          </div>
+          <div class="masonry__item" data-cat="coffee">
+            <img src="images/gal-coffee-3.jpg" alt="ハンドドリップ" loading="lazy" width="900" height="1100">
+          </div>
+          <div class="masonry__item" data-cat="interior">
+            <img src="images/exterior.jpg" alt="カフェ外観" loading="lazy" width="1200" height="800">
+          </div>
+          <div class="masonry__item" data-cat="food">
+            <img src="images/gal-food-3.jpg" alt="季節のフード" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="masonry__item" data-cat="coffee">
+            <img src="images/gal-coffee-4.jpg" alt="アイスコーヒー" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="masonry__item" data-cat="interior">
+            <img src="images/interior-counter.jpg" alt="カウンター席" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="masonry__item" data-cat="food">
+            <img src="images/gal-food-4.jpg" alt="焼き菓子" loading="lazy" width="1200" height="900">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="画像を拡大表示">
+    <button type="button" class="lightbox__close" aria-label="閉じる">&times;</button>
+    <button type="button" class="lightbox__prev" aria-label="前の画像">&#8249;</button>
+    <img class="lightbox__img" src="" alt="">
+    <button type="button" class="lightbox__next" aria-label="次の画像">&#8250;</button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="footer__logo">Café Elmorie</a>
+          <p class="footer__tagline">日常に、ほっとひと息つける時間を。<br>住宅街にたたずむ、自家焙煎カフェ。</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Navigation</p>
+          <ul class="footer__nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="access.html">Access</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="footer__col-title">Info</p>
+          <p>東京都世田谷区北沢2-14-7<br>03-1234-5678<br><br>火〜金 9:00 – 19:00<br>土日祝 8:00 – 19:00<br>月曜定休</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Café Elmorie. All rights reserved.</p>
+        <p class="footer__disclaimer">※ このサイトはポートフォリオ制作のためのデモサイトです。Café Elmorieは実在しません。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
